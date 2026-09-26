@@ -1,0 +1,43 @@
+<resources>
+    <!-- Application and Screen Titles -->
+    <string name="app_name">Word Counter</string>
+    <string name="toolbar_title">MADT Word Counter</string>
+
+    <!-- Input Section -->
+    <string name="input_label">Text to Analyze</string>
+    <string name="input_hint">Enter or paste your text here…</string>
+    <string name="btn_calculate">Calculate Metrics</string>
+    <string name="btn_generate_sample">Generate Sample</string>
+    <string name="btn_clear_input">Clear Text</string>
+
+    <!-- Error and Feedback Notifications -->
+    <string name="error_empty_input">Input cannot be empty. Please enter or generate text.</string>
+    <string name="toast_sample_generated">Sample sentence inserted.</string>
+    <string name="toast_history_cleared">Calculation history cleared.</string>
+    <string name="toast_metrics_cleared">Input and metrics cleared.</string>
+
+    <!-- Metrics Card -->
+    <string name="label_current_metrics">Current Analysis</string>
+    <string name="metric_sentences_format">Sentences: %1$d</string>
+    <string name="metric_words_format">Words: %1$d</string>
+    <string name="metric_punctuation_format">Punctuation: %1$d</string>
+    <string name="metric_numbers_format">Numbers: %1$d</string>
+
+    <!-- History Section -->
+    <string name="label_history">Calculation History (Current Runtime)</string>
+    <string name="btn_clear_history">Clear History</string>
+    <string name="history_empty_message">No calculations recorded yet in this session.</string>
+    <string name="history_item_time_format">Calculated at %1$s</string>
+    <string name="history_item_metrics_summary">Sentences: %1$d  •  Words: %2$d  •  Punctuation: %3$d  •  Numbers: %4$d</string>
+    <string name="action_copy_snippet">Copy to input</string>
+    <string name="toast_copied_to_input">Text copied to input field.</string>
+
+    <!-- Sample Sentences for Generation -->
+    <string-array name="sample_sentences">
+        <item>The quick brown fox jumps over the lazy dog.</item>
+        <item>In 2026, Lab #2 costs $15.50 for 3 students. Is it worth it? Yes!</item>
+        <item>Java and Android development are powerful, modern, and reliable!</item>
+        <item>Dr. Smith bought 5 apples, 12 oranges, and 3.14 liters of juice.</item>
+        <item>Wait… Is that really 100% true?! Yes, absolutely.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <color name="primary">#1A73E8</color>
+    <color name="primary_dark">#1557B0</color>
+    <color name="primary_light">#E8F0FE</color>
+    <color name="secondary">#0D652D</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F8F9FA</color>
+    <color name="text_primary">#202124</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="card_stroke">#DADCE0</color>
+    <color name="error">#D93025</color>
+    <color name="metric_card_bg">#F1F3F4</color>
+</resources>
