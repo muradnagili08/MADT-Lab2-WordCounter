@@ -17,7 +17,7 @@ public final class TextMetricsCalculator {
     private static final Pattern NUMBER_PATTERN = Pattern.compile("\\b\\d+(?:[.,]\\d+)*\\b");
 
     // Regex for words: tokens containing letters, supporting Unicode, alphanumeric words (e.g. Lab2, COVID-19), contractions & hyphens
-    private static final Pattern WORD_PATTERN = Pattern.compile("(?U)\\b(?=[^\\s]*?\\p{L})[\\p{L}\\p{N}]+(?:['’\\p{Pd}][\\p{L}\\p{N}]+)*\\b");
+    private static final Pattern WORD_PATTERN = Pattern.compile("(?<![\\p{L}\\p{N}])(?=[^\\s]*?\\p{L})[\\p{L}\\p{N}]+(?:['’\\p{Pd}][\\p{L}\\p{N}]+)*(?![\\p{L}\\p{N}])");
 
     // Regex for punctuation characters (both ASCII and Unicode punctuation)
     private static final Pattern PUNCTUATION_PATTERN = Pattern.compile("[\\p{Punct}\\p{P}]");
